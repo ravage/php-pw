@@ -11,4 +11,7 @@ function fill(int $capacity = 10) : array
     return $values;
 }
 
-echo array_sum(fill()) . "\n";
+function sum(array $values) : int
+{
+    return array_sum($values);
+}
