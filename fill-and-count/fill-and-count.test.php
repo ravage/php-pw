@@ -1,7 +1,7 @@
 <?php
 
-use PHPUnit\Framework\TestCase;
 require 'fill-and-count.php';
+use PHPUnit\Framework\TestCase;
 
 class FillCountTest extends TestCase
 {

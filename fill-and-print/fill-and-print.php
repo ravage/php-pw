@@ -1,16 +1,16 @@
 <?php
 
-function fill(int $size = 10) : array
+function fill(int $capacity = 10) : array
 {
     $values = array();
-    for ($i = 0; $i < $size; $i++) {
+    for ($i = 0; $i < $capacity; $i++) {
         $values[] = rand(1, 100);
     }
 
     return $values;
 }
 
-$values = fill();
-array_walk($values, function ($element) {
-    echo "$element\n";
-});
+function display(array $values) : string
+{
+    return implode(', ', $values);
+}
