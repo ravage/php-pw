@@ -11,6 +11,6 @@ function fill(int $size = 10) : array
 }
 
 $values = fill();
-array_walk($values, function($element) {
+array_walk($values, function ($element) {
     echo "$element\n";
 });
