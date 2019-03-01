@@ -18,5 +18,3 @@ function hammingDistance(string $a, string$b) : int
 
     return $distance;
 }
-
-// echo hammingDistance('karolin', 'kathrind');
